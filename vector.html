@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilop.css">
+	<title>arreglo del array</title>
+</head>
+<body>
+	<header>
+	<div class="menu">
+		<a href="index.html">EDAD DEL PERRO</a>
+	</div>
+		<h1>SUMA DE DOS VECTORES</h1>
+	</header>
+
+
+<script type="text/javascript">
+	var vector1=[];
+	var vector2=[];
+	var suma=[];
+	var limite=parseInt(prompt('numero de valores:'));
+	var s=0;
+	for (var i=0;i<limite;i++){
+		var valor1=parseInt(prompt("valor:"))
+		var valor2=parseInt(prompt("valor:"))
+		vector1[i]=valor1;
+		vector2[i]=valor2;
+		suma[i]=vector1[i]+vector2[i];
+		s=s+suma[i]
+		
+	}
+	document.write("El vector1 : "+vector1)
+	document.write("<br>El vector2 : "+vector2)
+	document.write("<br>La suma del vector1 y vector2 es :"+s)
+</script>
+<section> Para solucionar el problema lo que hice fue cambiar la variable " var suma=0; por var s=0; ",y uno de los problemas es que la variable suma dentro del for no se estaba sumando porque no estaba escrito, de esta manera "s=s+suma[i]" </section>
+
+</body>
+</html>

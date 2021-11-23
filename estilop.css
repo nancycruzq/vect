@@ -1,0 +1,56 @@
+body{
+	background-color: #94b8b8;
+	background-image: url("fondo.jpg");
+	background-size:100%;
+	background-size: cover;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: justify;
+	margin: 0;
+	padding: 5%;
+	
+}
+a img{
+	width: 15%;
+	height: 5%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 20px;
+}
+.salida{
+	background: #00664d;
+	color: #f0e8e6;
+	margin: 5px;
+	padding: 40px;
+	font-size: 20px;
+	display: flex;
+	margin: 0;
+}
+h1{
+	text-align: center;
+	color:#000080;
+	padding: 10px;
+}
+.center {
+  	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+  	width: 40%;
+}
+.menu a{
+        color: black;
+        display: block;
+        text-align: right;
+        padding: 10px;
+        margin: 0;
+        font-size: 20;
+}
+h2{
+	color: #ffff00;
+}
+
+section{
+	padding:  1% 0;
+	background: yellowgreen;
+}
+
